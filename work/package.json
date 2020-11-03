@@ -1,18 +1,15 @@
 {
-  "name": "GulpAndSassTutorial",
+  "name": "work",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "gulp sass"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1"
+    "gulp": "https://registry.npmjs.org/gulp/-/gulp-3.9.1.tgz"
   }
 }

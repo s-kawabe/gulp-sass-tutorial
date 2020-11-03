@@ -1,5 +1,3 @@
-var gulp = require('gulp');
+var requireDir = require('require-dir'); // require-dirモジュールの読み込み
 
-gulp.task('default', function() {
-
-});
+requireDir('./gulp/tasks');
