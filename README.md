@@ -10,7 +10,7 @@
 node_modulesの中にインストールされる
 
 ## npm install --save
-package.jsonのdependenciesにバージョン付きで書き込まれる
+package.jsonのdependenciesにバージョン付きで書き込まれる
 
 ## npm install --save-dev
 package.jsonのdevDependenciesにバージョン付きで書き込まれる。
@@ -25,13 +25,14 @@ package.jsonの雛形？を作成してくれる
 ひとまずpackage.jsonを作る際に打ち込む
 
 # gulpfile.jsの書き方
-***javascript
+
+```javascript
 var gu;p = require('gulp');
 
 gulp.task('<タスク名>', function() {
   // ここにタスクの内容を記載する
 });
-***
+```
 
 # はじめて知ったCSSプロパティ
 ***css
