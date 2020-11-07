@@ -1,2 +1,4 @@
 node_modules/
 complete/
+.DS_Store
+npm_debug.log

@@ -14,5 +14,5 @@ gulp.task('sass', function() {
       }))
       .pipe(sassGlob())
       .pipe(sass({ outputStyle: 'expanded' }))
-      .pipe(gulp.dest(config.build));
+      .pipe(gulp.dest(config.build)); 
 });

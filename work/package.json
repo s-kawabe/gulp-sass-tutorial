@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "sass": "gulp sass",
+    "sprite:st": "gulp sprites --dir structures --prefix st",
+    "sprite:c": "gulp sprites --dir contents --prefix c",
+    "imagemin": "gulp imagemin",
     "watch": "watch sass"
   },
   "keywords": [],
