@@ -1,0 +1,10 @@
+.c-container {
+  // 小要素の一番最後だけ下マージンを消す
+  @include last-mb0;
+  background: #efefef;
+  padding-bottom: 120px;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+  padding-right: calc(50vw - 50%);
+  padding-left: calc(50vw - 50%);
+}

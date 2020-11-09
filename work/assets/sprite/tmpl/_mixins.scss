@@ -1,5 +1,5 @@
 <% _.forEach(svg, function(svgItem) { %>
-  @mixin <%=common %>-i-<%=svgItem.name%>($size, $display: inline-block) {
+  @mixin <%=common%>-i-<%=svgItem.name%>($size, $display: inline-block) {
     content: '';
     display: $display;
     width: rem($size * <%= svgItem.relWidth %>);
@@ -9,13 +9,13 @@
     background-position: rem($size * <%= svgItem.relPositionX %>) rem($size * <%= svgItem.relPositionY %>);
     background-size: rem($size * <%= relWidth %>) rem($size * <%= relHeight %>);
   }
-  @mixin <%=common %>-i-<%=svgItem.name%>-size($size) {
+  @mixin <%=common%>-i-<%=svgItem.name%>-size($size) {
     width: rem($size * <%= svgItem.relWidth %>);
     height: rem($size * <%= svgItem.relHeight %>);
     background-position: rem($size * <%= svgItem.relPositionX %>) rem($size * <%= svgItem.relPositionY %>);
     background-size: rem($size * <%= relWidth %>) rem($size * <%= relHeight %>);
   }
-  @mixin <%=common %>-i-<%=svgItem.name%>-module($display: inline-block) {
+  @mixin <%=common%>-i-<%=svgItem.name%>-module($display: inline-block) {
     content: '';
     display: inline-block;
     width: <%= svgItem.relWidth %>em;

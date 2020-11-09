@@ -10,7 +10,7 @@ var spriteConfig = {
   // mixinファイルの出力先
   cssFile: config.scss + '/tools/mixins/_' + options.dir + 'Sprite.scss',
   // cssから読み込むspriteファイルの出力先
-  svgPath: '../img/' + options.dir + 'sprite.svg',
+  svgPath: '../img/' + options.dir + '/sprite.svg',
   // spriteファイルの出力先
   svg: {
     sprite: config.src + '/assets/img/' + options.dir + '/sprite.svg'
