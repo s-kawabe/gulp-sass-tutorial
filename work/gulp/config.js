@@ -7,5 +7,6 @@ module.exports = {
   src: './src', // ソースディレクトリ
   scss: './assets/scss', //Sassファイルを格納するディレクトリ
   sprite: './assets/sprite', // スプライト化する画像を管理するディレクトリ
-  styleguite: './assets/styleguide' // KSSのテンプレートの格納ディレクトリ
+  styleguite: './assets/styleguide', // KSSのテンプレートの格納ディレクトリ
+  ejs: './assets/ejs' // EJSテンプレートの格納ディレクトリ
 };
